@@ -1,0 +1,288 @@
+body{
+    margin:0 auto;
+    background-color: black;
+    outline:none;
+    font-family: sans-serif;
+}
+:active{
+    background-color: seagreen;
+}
+
+/* Index Page CSS */
+.container{
+    width:80rem;
+    height:auto;
+    background-color:white;
+    margin:auto;
+}
+.logo img{
+    display:inline;
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    float:left;
+    clear:both;
+    padding:1rem;
+}
+.logo h1{
+    display:inline;
+    float:left;
+    padding:3rem 0.25rem;
+}
+.logo h1 a{
+    text-decoration: none;
+}
+.logo h1 a:hover,.logo h1 a:focus{
+    color:rgb(218, 89, 128);
+}
+.box{
+    width:10px;
+    height:10px;
+    background-color:wheat;
+    position:absolute;
+    animation: runMe 1s infinite;
+    top:110px;
+}
+@keyframes runMe {
+    0%{
+        left:260px;top:50px;
+    }
+    25%{
+        left:480px;top:50px;
+        width:30px;height:30px;
+        transform: rotate(90deg);
+        background-color:palegreen;
+    }
+    50%{
+        left:480px;top:120px;
+    }
+    75%{
+        left:260px;top:120px;
+        transform: rotate(90deg);
+        background-color:green;
+    }
+    100%{
+        left:260px;top:50px;
+    }
+}
+.search{
+    float:right;
+    padding:4rem;
+}
+button{
+    padding:0.4rem;
+}
+.search input{
+    padding:0.45rem;
+    /* border:none; */
+    border-radius:5px;
+}
+.clearfix{
+    clear:both;
+}
+nav{
+    display:block;
+    background-color:teal;
+}
+li:hover{
+    cursor: pointer;
+}
+.main-menu>ul{
+    margin:0;padding:0;
+    list-style:none;
+}
+.main-menu>ul>li{
+    display:inline-block;
+}
+.main-menu>ul>li>a{
+    text-decoration: none;
+    display:block;
+    padding:1rem;
+    font-family:sans-serif;
+    font-size:small;
+    color:white;
+}
+.main-menu>ul>li>a:hover{
+    background-color:rgba(255,165,0,0.9);
+    font-weight: bold;
+} 
+.drop{
+    list-style: none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    visibility: hidden;
+    z-index:999;
+}
+.drop>li>a{
+    text-decoration: none;
+    display:block;
+    padding:1rem;
+    font-family:sans-serif;
+    font-size:small;
+    color:white;
+    background-color:rgba(00,00,00,0.7);
+}
+.drop>li>a:hover{
+    background-color:rgba(255,165,0,0.9);
+    font-weight: bolder;
+    /* transition:all 500s ease; */
+}
+.main-menu>ul>li:hover .drop{
+    visibility: visible;
+}
+
+
+/* Main */
+.cycle-slideshow{
+    width:20vw;
+    height:auto;
+    margin:auto;
+}
+.banner img{
+    max-width: 20vw;
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+    padding:0.25rem;
+}
+.content-holder{
+    background-color:blue ;
+}
+.content{
+    width:75%;
+    height:auto;
+    padding:1rem;
+    background-color:whitesmoke;
+    /* border-radius:10px; */
+    float:left;
+}
+.content h1{
+    font-size:1.8rem;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size:0.95rem;
+}
+.sidebar{
+    float:left;
+    padding:2rem;
+}
+.sidebar h3{
+    font-family:sans-serif;
+}
+.sidebar ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.sidebar ul li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding:0.25rem;
+    font-style:italic;
+    font-weight: bold;
+    font-size:1.4rem;
+}
+
+
+/* Footer */
+.footer{
+    background-color:rgba(00,00,00,0.8);
+    color:white;
+    height:auto;
+    padding:2rem;
+}
+.footer h3{
+    margin-top:0;
+}
+.footer-box{
+    width:304px;
+    height:auto;
+    float:left;
+}
+.footer-box >ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.footer-box>ul>li>a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    font-size:small;
+    padding:0.12rem;
+}
+address p{
+    font-size:small;
+}
+.footer-box address a{
+    color:teal;
+    text-decoration:underline;
+}
+.copy{
+    text-align:center;
+    padding:1.2rem;
+    background-color: rosybrown;
+    color:white;
+}
+.copy p{
+    margin:0;
+}
+
+
+
+
+/* About US Page CSS */
+.content img{
+    width:100%;
+}
+
+
+
+
+/* Product page */
+.product{
+    width:18.6rem;
+    float:left;
+    padding:0.5rem;
+    border:1px solid black;
+    border-radius: 4px;
+    margin:0.1rem;
+}
+.product p{
+    font-weight: bold;
+    font-size: 17px;
+}
+.product-caption{
+    text-align: center;
+}
+.product-caption del{
+    color:red;
+}
+.product-caption ins{
+    color:green;
+    text-decoration: none;
+}
+.product-caption a{
+    display:block;
+    background-color:teal;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    padding:8px;
+    color:white;
+}
+.product-caption a:hover{
+    background-color:orange;
+}
+
+
+
+/* Contact Page */
+
+.banner iframe{
+    width:100%;
+}
