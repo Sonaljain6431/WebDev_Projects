@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat','Source Sans Pro';
+}
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+.head-nav{
+    width:100%;
+    background-color: #232f3e;
+    height:80px;
+}
+.head-logo{
+    margin:auto;
+    padding:auto;
+    display:inline;
+    height:70px;
+}
+.demo-watch{
+    width:400px;
+    padding-top:4rem;
+}
+#clock{
+    position: absolute;
+    top:270px;
+    left:155px;
+    color:white;
+    font-size:2rem;
+    font-weight: bold;
+}
+#heart{
+    display:none;
+}
+#heart-img img{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 215px;
+    left: 195px;
+}
+#heart-count{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.main-content{
+    padding:4.5rem 1rem;
+}
+.color{
+    padding-top:2.2rem;
+}
+.color button{
+    height:50px;
+    width:64px;
+    border:none;
+    border-radius:6px;
+    margin:0.25rem;
+}
+.red{
+    background-color:#ca3d22 ;
+}
+.black{
+    background-color:#23211f;
+}
+.purple{
+    background-color:#8a5362;
+}
+.blue{
+    background-color:#565681;
+}
+.pink{
+    background-color:#e9c7be ;
+}
+.features,.buy{
+    padding-top:1.45rem;
+}
+.btn-light{
+    background-color: rgb(228, 223, 223);
+}
+.buy-now{
+    background-color: #E47911;
+    border:none;
+    padding:0.55rem;
+    border-radius:6px;
+    width:7.5rem;
+}
