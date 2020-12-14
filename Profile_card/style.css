@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  background: rgb(151, 161, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(151, 161, 223, 0.7772059507396709) 0%,
+    rgba(166, 212, 232, 1) 23%,
+    rgba(61, 222, 220, 1) 67%,
+    rgba(13, 104, 180, 0.6091387238489145) 99%
+  );
+}
+.container {
+  border-radius: 12px;
+  background-color: white;
+  width: 20rem;
+  margin-top:1rem;
+}
+.card {
+  border: none;
+}
+
+
+.header-img {
+  background-image: url("./images/bg-pattern-card.svg");
+  margin-left: -15px;
+  width: 111%;
+  height: 7rem;
+  position: relative;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+img#victor {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: -2rem;
+  left: 7rem;
+  border: 5px solid white;
+  background-size: cover;
+}
+
+
+.details {
+  margin-top: -0.9rem;
+  height: 2.8rem;
+}
+.details p {
+  display: flex;
+  padding: auto auto;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.85rem;
+}
+.details p#name {
+  font-weight: 700;
+}
+.details span#age {
+  padding-left: 0.55rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+.details #place {
+  color: hsl(0, 0%, 59%);
+}
+
+
+.info {
+  padding: 0.85rem;
+}
+.info .quan{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.quan span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
+.name span {
+  font-weight: 400;
+  font-size:0.8rem;
+  color: hsl(0, 0%, 59%);
+}
+.name span#follower {
+  padding-left: 0.6rem;
+}
+.name span#likes {
+  padding-left: 2.8rem;
+}
+.name span#posts {
+  padding-left: 3.5rem;
+}
