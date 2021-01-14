@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* Style the buttons that are used to open and close the accordion panel */
+    
+
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" id="img">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="">
+        <img src="./images/illustration-box-desktop.svg" alt="" id="atRate">
+        <img src="./images/bg-pattern-desktop.svg" alt="" id="trans">
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" id="content">
+        <h1 id="faq">FAQ</h1>
+        <button class="accordion">How many team members can I invite? <img src="./images/icon-arrow-down.svg" alt="" class="arrow" style="margin-top: 0.8rem; margin-right: -2.4rem;"></button>
+        <div class="panel">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+        </div><hr>
+
+        <button class="accordion">What is the maximum file upload size? <img src="./images/icon-arrow-down.svg" alt="" class="arrow" style="margin-top: 0.8rem; margin-right: -2.4rem;"></button>
+        <div class="panel"><p>No more than 2GB. All files in your account must fit your allotted storage space.</p></div><hr>
+
+        <button class="accordion">How do I reset my password? <img src="./images/icon-arrow-down.svg" alt="" class="arrow" style="margin-top: 0.8rem; margin-right: -2.4rem;"></button>
+        <div class="panel"><p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p></div><hr>
+
+        <button class="accordion">Can I cancel my subscription? <img src="./images/icon-arrow-down.svg" alt="" class="arrow" style="margin-top: 0.8rem; margin-right: -2.4rem;"></button>
+        <div class="panel"><p>Yes! Send us a message and we’ll process your request no questions asked.</p></div><hr>
+
+        <button class="accordion">Do you provide additional support? <img src="./images/icon-arrow-down.svg" alt="" class="arrow" style="margin-top: 0.8rem; margin-right: -2.4rem;"></button>
+        <div class="panel"><p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p></div><hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sonal Jain</a>.
+  </div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    } 
+  </script>
+</body>
+</html>

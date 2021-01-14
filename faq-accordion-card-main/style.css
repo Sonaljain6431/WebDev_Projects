@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.container-fluid{
+  background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  background-color: white;
+  border-radius:15px;
+  width: 900px;
+  margin: 2rem 5rem;
+  padding: 4rem 0rem;
+}
+#faq{
+  padding: 0 0 2rem;
+  font-weight: 700;
+}
+#content{
+  margin-right: -4rem;
+}
+.arrow{
+  position:absolute;
+  right:20rem;
+  width:1.2rem;
+}
+#atRate{
+  width: 17rem;
+  display: inline;
+  position: absolute;
+  top: 10rem;
+  left: -4rem;
+}
+img{
+  margin-left:-8rem;
+  width: 37rem;
+  margin-top: 2rem;
+}
+#trans{
+  position: absolute;
+  top: 10px;
+  left:10px;
+  width: 5rem;
+}
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background-color:transparent;
+}
+.accordion:hover{
+  color:orange;
+  font-weight: 700;
+}
+.active{
+  color: black;
+  font-weight: 700;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+hr{
+  margin:0;
+  color:hsl(240, 5%, 91%);
+  width: 60%;
+}
+
+/* @media (min-width: 376px) and (max-width: 1440px){ */
+  
+  /* #atRate{
+    position: absolute;
+    left: -4rem;
+    /* top:-6rem; */
+  /* }
+} */
+@media only screen and (max-width: 375px) {
+  .row{
+    background-color: white;
+    border-radius:15px;
+    position: absolute;
+    top: 14rem;
+    width: 320px;
+    height: 470px;
+    margin: 1rem 1rem;
+    padding: 2rem 0rem;
+  }
+  #faq{
+    padding: 0 0 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  #content{
+    margin-right: -5rem;
+    padding-top: 7rem;
+  }
+  .arrow{
+    position:absolute;
+    right:6rem;
+    width:1.2rem;
+  }
+  #atRate{
+    width: 12rem;
+    display: inline;
+    position: absolute;
+    top: 7.9rem;
+    left: -2.5rem;
+  }
+  img{
+    position: absolute;
+    margin-left:0.4rem;
+    width: 29rem;
+    margin-top: -15rem;
+  }
+  #trans{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    width: 5rem;
+  }
+  .accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background-color:transparent;
+  }
+  .accordion:hover{
+    color:orange;
+    font-weight: 700;
+  }
+  .active{
+    color: black;
+    font-weight: 700;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  hr{
+    margin:0;
+    color:hsl(240, 5%, 91%);
+    width: 99%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+
