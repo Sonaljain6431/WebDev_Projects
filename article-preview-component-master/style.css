@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color:hsl(210, 46%, 95%);
+}
+
+#card{
+    margin: 2rem 0;
+    width: 52rem;
+    background-color: white;
+    border-radius: 8px;
+}
+#drawer{
+    width: 22rem;
+    margin-left:-15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 100%;
+}
+#content{
+    padding:2rem 2rem 0rem 2.4rem;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+#pimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#name{
+    font-weight: 700;
+}
+#det{
+    padding: 0px;
+}
+img{
+    display: inline;
+}
+#name,#date{
+    padding: 0.4rem 0 0 0;
+}
+#social-handles{
+    background-color: hsl(212, 23%, 69%);
+    width: 14.6rem;
+    position: relative;
+    top: -7.8rem;
+    left:16rem;
+    color: white;
+    border-radius: 1rem;
+    display:none;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+#text{
+    padding: 0.7rem 1.5rem;
+    letter-spacing: 3px;
+}
+#fb,#pin,#tweet{
+    padding: 0.7rem 0.5rem;
+}
+#share{
+    position: relative;
+    top: 1rem;
+    left: 1rem;  
+}
+#share:hover #social-handles {
+    display:block;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 375px){
+    .container-fluid{
+        height: 120vh;
+    }
+    #card{
+        margin: 2rem 0;
+        width: 16rem;
+        border-radius: 8px;
+        position:absolute;
+        top:0;
+    }
+    #drawer{
+        width: 16rem;
+        height: 8rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+    #content{
+        padding:1.5rem 0.5rem 1.5rem 1rem;
+    }
+    h1{
+        font-size: 18px;
+    }
+    #detail{
+        height: 3rem;
+    }
+    #pimg{
+        width: 45px;
+        height: 45px;
+    }
+    #det{
+        padding: 0;
+        position:relative;
+        top: -3rem;
+        left: 4.6rem;
+    }
+    #share{
+        position: absolute;
+        top: 16rem;
+        left: 12.5rem;  
+    }
+    #social-handles{
+        display: none;
+        position: absolute;
+        top: 15.4rem;
+        left: 0rem;
+        width: 13rem;
+        height: 3.5rem;
+    }
+    #share:hover ~#pimg ~#det{
+        display:none;
+    }
+    #text{
+        padding-left: 1rem;
+        letter-spacing: 3px;
+    }
+    #fb,#pin,#tweet{
+        padding: 0.5rem 0.3rem;
+    }
+    #share:hover{
+        background-color:  hsl(212, 23%, 69%);
+        color: white;
+    }
+    #share:hover + #social-handles{
+        opacity:1.0;
+    }
+} 
