@@ -1,1 +1,1 @@
-[Live Demo] (https://smartwatch-swart.vercel.app/)
+[Live Demo](https://smartwatch-swart.vercel.app/)
