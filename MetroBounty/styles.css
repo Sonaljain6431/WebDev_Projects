@@ -1,0 +1,45 @@
+* {
+  margin: 20px auto;
+  width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.heading {
+  background-color: rgb(116, 192, 243);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+#cf,
+#fc,
+#fk,
+#kf,
+#ck,
+#cf,
+#kc {
+  width: 40%;
+}
+
+button {
+  width: 61%;
+}
+
+input,
+button {
+  padding: 10px;
+  /* border: 2px navajowhite solid; */
+  border: none;
+  border-radius: 12px;
+}
+
+h3 {
+    padding: 5px 5px 16px 5px;
+    /* background-color: rgb(158, 167, 243); */
+}
+.conv {
+  padding-top: 12px;
+  background-color: #d2dff8;
+  border-radius: 12px;
+}
