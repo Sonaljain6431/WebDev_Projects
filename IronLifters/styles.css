@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/gym_img.jpeg');
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.left{
+    display: inline-block;
+    position: absolute;
+    /* left:0;top:0; */
+    left: 18px;
+    top: 8px;
+}
+.left img{
+    width: 80px;
+    /* height: 60px; */
+    position: relative;
+    left:15px;
+}
+.left div{
+    text-align: center;
+    line-height: 18px;
+    font-size: 22px;
+}
+
+.center{
+    display: block;
+    width: 33%;
+    margin: 8px auto;
+    padding: 4px; 
+}
+.navbar{
+    display: inline-block;    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 5px; 
+    padding: 5px;
+    font-size: 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(221, 218, 218);
+    text-decoration: underline;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+.btn{
+    margin: 5px 12px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid grey;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(105, 104, 104);
+}
+
+
+.main-container{
+    border: 2px solid white;
+    display: block;
+    width: 45%;
+    margin: 100px auto;
+    padding: 28px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+.tagline{
+    text-align: right;
+    padding-right: 14px;
+    line-height: 0px;
+}
+.form-group{
+    text-align: center;
+    margin: 6px;
+}
+.inputtxt{
+    padding: 12px;
+    font-size: 16px;
+    margin: 8px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    width: 65%;
+}
+
+
+.activity_img{
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    margin: 30px 16px;
+}
+.activity_img:hover{
+    width: 450px;
+    height: 450px;
+    box-shadow: 5px 4px rgb(104, 102, 102);
+}
+h3.activity_desc{
+    display: inline-block;
+    margin: 12px 40px;
+    font-size: 24px;
+    position:relative;
+}
+#spin{
+    left: 130px;
+}
+#gap{
+    left:460px;
+}
+#pilates{
+    left: 795px;
+}
+#activity_btn{
+    display: block;
+    width: 20%;
+    margin: 40px auto;
+}
+
+#aboutus_img,#aboutus_desc{
+    margin: 40px 0;
+}
+#aboutus_img{
+    width: 50%;
+    float:left;
+}
+#aboutus_desc{
+    width: 43%;
+    height: 385px;
+    float: right;
+    padding:51px;
+    background-color: rgb(95, 91, 91);
+}
+
+
+.contactus{
+    width: 60%;
+    margin:auto;
+    display: block;
+}
+#contactus{
+    margin:40px 0px;
+}
+.contactus button{
+    margin: 12px;
+}
