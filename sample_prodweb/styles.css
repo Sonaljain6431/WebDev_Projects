@@ -1,0 +1,112 @@
+/* Login Page CSS */
+*{
+    text-align: center;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login{
+    background-color: #E18A07;
+    color: white;
+    width: 35%;
+    margin: 6rem auto;
+    padding: 1.2rem;
+    border-radius: 2px;
+}
+
+.input{
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    border: 2px #E18A07 solid;
+}
+
+.inputbtn{
+    width: 38%;
+    margin: 20px auto;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: #C0C0C0;
+    border: 2px #C0C0C0 solid;
+    color: white;
+}
+.inputbtn:hover{
+    background-color: rgb(100, 98, 98);
+    text-decoration: underline;
+    
+}
+#btn a{
+    text-decoration: none;
+}
+
+
+/* Home Page CSS */
+li{
+    display: inline-block;
+    padding: 30px;
+}
+li a{
+    text-decoration: none;
+}
+img{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+#intro{
+    color:#E18A07;
+    position: absolute;
+    background-color: rgb(238, 234, 234);
+    /* padding: -220px 180px 20px 180px; */
+    bottom: 20px;
+    right:0;left: 0;
+    padding: 20px 60px;
+    font-size: 2.6rem;
+}
+main{
+    padding: 2rem;
+    background-color:#C0C0C0;
+}
+.underline{
+    border-top: 5px #E18A07 solid;
+    width: 25%;
+    margin: 20px auto;
+}
+.title{
+    text-align: left;
+    padding: 10px 0;
+}
+main section{
+    padding: 2rem;
+    width: 55%;
+    text-align:left;
+}
+#name{
+    padding: 1rem;
+}
+.int{
+    padding: 0 0 0.4rem 0rem;
+}
+#knowmore{
+    border: 2px #E18A07 solid;
+    display: grid;
+}
+#knowmore:hover{
+    text-decoration: underline;
+}
+
+footer{
+
+}
+h4#email,h4#phone{
+    padding: 8px;
+}
+h6{
+    padding:6px;
+}
